@@ -39,3 +39,18 @@ int main()
     cout<<findNumExist(arr,k);
     return 0;
 }
+
+/*
+output:---
+enter array elements 
+-1 -10 6 1 2
+enter target : 5
+1
+
+
+enter size of array : 5
+enter array elements
+-1 -10 2 1 6
+enter target : 16
+0
+/*
