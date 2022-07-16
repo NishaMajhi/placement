@@ -59,7 +59,7 @@ public:
         if(n==0 || n==1 || n==2)
             return 0;
         
-        
+        //sieve algorithm
         vector<int> vec(n+1,0);
         for(int i=2;i*i<n;i++){
             
