@@ -28,6 +28,7 @@ Find the maximum valued integer X which satisfies the above properties.
 
 int Solution::cpFact(int A, int B) {
     
+    //euclid gcd algorithm
     while( __gcd(A,B) != 1){
         A = A / (__gcd(A,B));
     }
