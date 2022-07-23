@@ -44,11 +44,11 @@ public:
         
         while(!num.empty()){
             
-            //first we check for the ending number if it is odd then return the string as                      resultant string
+            //first we check for the ending number if it is odd then return the string as resultant string
             if(num[i]%2 == 1)
                 return num;
             
-            //if the number is not odd then decrease the size and pop out the even number from                  the string
+            //if the number is not odd then decrease the size and pop out the even number from the string
             else{
                 i--;
                 num.pop_back();
